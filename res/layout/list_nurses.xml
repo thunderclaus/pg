@@ -30,20 +30,20 @@
         android:orientation="vertical" >
 
         <TextView
-            android:id="@+id/list_title_Visor"
+            android:id="@+id/list_title_Nurse"
             style="?android:attr/textAppearanceMedium"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
         <TextView
-            android:id="@+id/list_info_Visor"
+            android:id="@+id/list_info_Nurse"
             style="?android:attr/textAppearanceMedium"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
     </LinearLayout>
 
     <ImageView
-        android:id="@+id/list_imgbtn_Visor"
+        android:id="@+id/list_imgbtn_Nurse"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|right"

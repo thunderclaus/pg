@@ -163,29 +163,30 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="用户名:" />
+                    android:text="用  户  名 :" />
 
                 <TextView
                     android:id="@+id/info_textview_UserName"
                     style="?android:attr/textAppearanceMedium"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:gravity="center"
+                    android:layout_weight="1.2"
+                    android:gravity="center|left"
                     android:text="王大锤" />
 
-                <TextView
-                    android:id="@+id/info_textview_UserChange"
+                <Button 
+                    android:id="@+id/info_btn_UserChange"
                     style="?android:attr/textAppearanceMedium"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:gravity="right"
+                    android:layout_weight="0.8"
+                    android:gravity="center"
                     android:text="更换用户"
-                    android:textColor="@color/red" />
+                    android:textColor="@color/red"/>
+                
+
             </LinearLayout>
 
-           
             <!-- 用户手机号 -->
 
             <LinearLayout
@@ -200,7 +201,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="手机号:" />
+                    android:text="绑定手机 :" />
 
                 <TextView
                     android:id="@+id/info_textview_UserPhone"
@@ -212,7 +213,6 @@
                     android:text="13800138000" />
             </LinearLayout>
 
-            
             <!-- 用户养老院 -->
 
             <LinearLayout
@@ -221,13 +221,15 @@
                 android:layout_height="match_parent"
                 android:orientation="horizontal" >
 
+              
                 <TextView
                     style="?android:attr/textAppearanceMedium"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="养老院" />
+                    android:text="看护单位 :" />
+
 
                 <TextView
                     android:id="@+id/info_textview_UserHospital"
@@ -250,7 +252,7 @@
         <!-- 第三列注册看护者 -->
 
         <LinearLayout
-            android:id="@+id/info_linear_listVisors"
+            android:id="@+id/info_linear_listNurses"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical" >
@@ -270,7 +272,7 @@
                     android:text="添加看护人" />
 
                 <ImageView
-                    android:id="@+id/info_imageview_AddVisors"
+                    android:id="@+id/info_imageview_AddNurses"
                     style="?android:attr/textAppearanceLarge"
                     android:layout_width="0dp"
                     android:layout_height="50dp"
@@ -289,7 +291,7 @@
             <!-- 看护者listView -->
 
             <com.pku.pg.ListViewForScrollView
-                android:id="@+id/info_list_Visors"
+                android:id="@+id/info_list_Nurses"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" />
 
